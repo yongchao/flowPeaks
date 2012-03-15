@@ -1,0 +1,37 @@
+This software provides the source code of the R package flowPeaks 
+
+1. Licensing
+    Under the Artistic License, you are free to use and redistribute this software.
+    However, we ask you to cite the following paper if you use this software for
+    publication
+       Ge Y. et al, fowPeaks: a fast unsupervised clustering flow cytometry
+       data via K-means and density peak finding, Manuscript, 2012
+
+2 Overview
+     We combine the ideas from the finite mixture model and histogram spatial
+     exploration together to find the clustering of the flow cytometry data. This new
+     algorithm, in which we called flowPeaks, can be applied to high dimensional
+     data and identify irregular shape clusters. The algorithm first uses K-means
+     algorithm with a large K to partition the population into many compact clusters.
+     These partitioned data allow us to generate a smoothed density function. All
+     local peaks are exhaustedly found by exploring the density function and the
+     cells are clustered by the associated local peak. The algorithm fowPeaks is
+     automatic, fast and reliable and robust to the cluster shape and outliers. Details
+     can be seen in the paper by Ge (2012).
+
+3 Installation
+
+3.1 All users
+   When you are reading this and find the R package is already available in the Bioconductor
+   package repository. You can install it directly from the Bioconductor.
+      --Windows users: select the menu "Packages" and then click "install R
+        package(s)..." and then look for the package flowPeaks
+      --Linux users: type the following after you have invoked R
+         > source("http://bioconductor.org/biocLite.R")
+         > biocLite("flowPeaks")
+
+    If this succeeds, congratulations.
+
+3.2 If the package is not available on the bioconductor, you need to build it from the source,
+    please see the vignette pdf file (inst/doc/flowPeaks.pdf) section 3.2 (windows users) and 
+    3.3 (Linux users) for the details.
