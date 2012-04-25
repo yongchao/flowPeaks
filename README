@@ -1,4 +1,9 @@
-The most update version is 0.8, April 23, 2012
+The most updated version is 0.8, April 23, 2012
+
+For IE browser users: Downloading a file by clicking a file and
+ then choosing the option “raw”. Right click to save target as
+ does not work.
+
 
 Windows users: please download the file flowPeaks_x.y.zip 
              for the prebuilt 32 bit binary package.
