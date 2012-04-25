@@ -8,7 +8,7 @@ For other browser users: Both methods mentioned above work.
 
 Windows users: please download the file flowPeaks_x.y.zip 
              for the prebuilt 32 bit binary package.
-Linux users: please download the source file flowPeaks_x_y.tar.gz
+Linux users: please download the source file flowPeaks_x.y.tar.gz
              to build the package. Requirements, R>=2.12, and GSL (>=1.12)
 
 flowPeaks-guide.pdf: the vignette pdf file, which is part of the package.
