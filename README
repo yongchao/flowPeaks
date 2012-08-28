@@ -1,4 +1,7 @@
-The most updated version is 0.8, April 23, 2012
+Since version 0.99.0, all updates of the flowPeaks package is hosted at
+the bioconductor in the development branch 
+(http://www.bioconductor.org/packages/devel/bioc/html/flowPeaks.html). 
+I will post the some important milestone packages at the github.
 
 For IE browser users: Downloading a file by clicking a file and
  then choosing the option “raw”. Right click to save target as
@@ -7,18 +10,19 @@ For IE browser users: Downloading a file by clicking a file and
 For other browser users: Both methods mentioned above work.
 
 Windows users: please download the file flowPeaks_x.y.zip 
-             for the prebuilt 32 bit binary package.
+             for the prebuilt binary package (for both
+	     32bit and 64bit).
+
+MacOS 10.5 (Leopard) binary:
+              please download the file flowPeaks_x.y.tgz
+
 Linux users: please download the source file flowPeaks_x.y.tar.gz
              to build the package. Requirements, R>=2.12, and GSL (>=1.12)
 
-flowPeaks-guide.pdf: the vignette pdf file, which is part of the package.
-             It includes the installation instructions and examples.   
-flowPeaks-manual.pdf: the detailed user manual on how to use 
+flowPeaks-guide.pdf: the vignette pdf file, it includes the installation 
+             instructions and examples.   
+flowPeaks.pdf: the detailed user manual on how to use 
              each individual functions in the flowPeaks package.
 
-Both pdf files are also available in the directory flowPeaks/inst/doc 
-after you have unpacked .tar.gz file or in the directory flowPeaks/doc 
-after you have unpacked Windows built .zip file or after you point to
-installed flowPeaks library.
-
-
+Both pdf files are also available at the bioconductor page
+(http://www.bioconductor.org/packages/devel/bioc/html/flowPeaks.html)
